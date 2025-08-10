@@ -14,7 +14,6 @@ import (
 	"github.com/pelletier/go-toml/v2"
 	"github.com/samber/lo"
 	"github.com/xmdhs/authlib-skin/config"
-	"github.com/xmdhs/authlib-skin/server"
 	"github.com/xmdhs/authlib-skin/utils/sign"
 )
 
