@@ -43,7 +43,6 @@ func main() {
 	}
 	var config config.Config
 	lo.Must0(toml.Unmarshal(b, &config))
-	s, cancel := lo.Must2(server.InitializeRoute(ctx, config))
 	defer cancel()
 	panic(s.ListenAndServe())
 }
